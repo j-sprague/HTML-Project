@@ -57,6 +57,11 @@ img#logo {
     max-width:300px;
 }
 
+.med-img {
+    max-width:400px;
+}
+
+
 /*
 Images side by side with CSS from W3Schools
 https://www.w3schools.com/howto/howto_css_images_side_by_side.asp
@@ -75,7 +80,7 @@ https://www.w3schools.com/howto/howto_css_images_side_by_side.asp
     display: table;
 }
 
-figure:hover {
+.stat:hover {
     background-color: #a6a6a6;
     color: white;
 }
