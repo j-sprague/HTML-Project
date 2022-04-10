@@ -7,6 +7,10 @@
     <title>Gallery</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+    <script src="slideshow.js"></script>
 </head>
 <body>
     <img src="images/logo.png" id="logo">
@@ -19,31 +23,15 @@
     </ul>
     <div class="content">
     <h1>Photo Gallery</h1>
-    <div class="row">
-        <figure class="column">
-            <img src="images/2021_adv150.jpg" class="med-img">
-            <figcaption>2021 Honda ADV150</figcaption>
-        </figure>
-        <figure class="column">
-            <img src="images/adv150_1.jpg" class="med-img">
-            <figcaption>2021 Honda ADV150, from visordown</figcaption>
-        </figure>
-        <figure class="column">
-            <img src="images/adv150_2.jpg" class="med-img">
-            <figcaption>2021 Honda ADV150, from MC Commute</figcaption>
-        </figure>
-    </div>
-    <div class="row">
-        <figure class="column">
-            <img src="images/2021_crf450rl.jpg" class="med-img">
-            <figcaption>2021 Honda CRF450RL</figcaption>
-        </figure>
-        <figure class="column">
-            <img src="images/2021_int650.png" class="med-img">
-            <figcaption>2021 Royal Enfield INT650</figcaption>
-        </figure>
-        </div>
-    </div>
+    <div class="img-container">
+    <ul id="slider">
+        <li><img src="images/2021_adv150.jpg" alt="" title="2021 Honda ADV150"></li>
+        <li><img src="images/adv150_1.jpg" alt="" title="2021 Honda ADV150, from visordown"></li>
+        <li><img src="images/adv150_2.jpg" alt="" title="2021 Honda ADV150, from MC Commute"></li>
+        <li><img src="images/2021_crf450rl.jpg" alt="" title="2021 Honda CRF450RL"></li>
+        <li><img src="images/2021_int650.png" alt="" title="2021 Royal Enfield INT650"></li>
+    </ul></div>
+    <p id="id_pager"></p>
 </div>
     <br>
     <div class="footer">
