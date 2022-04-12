@@ -7,6 +7,12 @@
     <title>Comparison</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <script src="social.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+    <script src="comparison.js"></script>
 </head>
 <body>
     <img src="images/logo.png" id="logo">
@@ -23,60 +29,56 @@
 <div class="row">
     <div class="column">
     <label for="select">Motorcycle #1: </label>
-    <select id="bike1" name="bike1">
-        <option value="adv150">2021 Honda ADV150</option>
-        <option value="crf450rl">2021 Honda CRF450RL</option>
-        <option value="int650">2021 Royal Enfield INT650</option>
+    <select id="select1" name="select1">
+        <option value="adv150">LOADING...</option>
     </select></div>
     <div class="column"></div>
     <label for="select">Motorcycle #2: </label>
-    <select id="bike2" name="bike2">
-        <option value="adv150">2021 Honda ADV150</option>
-        <option value="crf450rl">2021 Honda CRF450RL</option>
-        <option value="int650">2021 Royal Enfield INT650</option>
+    <select id="select2" name="select2">
+        <option value="adv150">LOADING...</option>
     </select></div>
     <table class="center-table">
         <tr>
             <th class="large-row">Category</th>
-            <th class="large-row">Bike #1</th>
+            <th class="large-row" id="bike-1">Bike #1</th>
             <th class="large-row">Difference</th>
-            <th class="large-row">Bike #2</th>
+            <th class="large-row" id="bike-2">Bike #2</th>
         </tr>
         <tr>
             <th>MSRP</th>
-            <td>0</td>
-            <td>+-0</td>
-            <td>0</td>
+            <td id="msrp-1">0</td>
+            <td id="msrp-dif">+-0</td>
+            <td id="msrp-2">0</td>
         </tr>
         <tr>
             <th>Top Speed</th>
-            <td>0</td>
-            <td>+-0</td>
-            <td>0</td>
+            <td id="top-1">0</td>
+            <td id="top-dif">+-0</td>
+            <td id="top-2">0</td>
         </tr>
         <tr>
             <th>Weight</th>
-            <td>0</td>
-            <td>+-0</td>
-            <td>0</td>
+            <td id="weight-1">0</td>
+            <td id="weight-dif">+-0</td>
+            <td id="weight-2">0</td>
         </tr>
         <tr>
             <th>Fuel Tank Capacity</th>
-            <td>0</td>
-            <td>+-0</td>
-            <td>0</td>
+            <td id="tank-1">0</td>
+            <td id="tank-dif">+-0</td>
+            <td id="tank-2">0</td>
         </tr>
         <tr>
             <th>Seat Height</th>
-            <td>0</td>
-            <td>+-0</td>
-            <td>0</td>
+            <td id="seat-1">0</td>
+            <td id="seat-dif">+-0</td>
+            <td id="seat-2">0</td>
         </tr>
         <tr>
             <th>Ground Clearance</th>
-            <td>0</td>
-            <td>+-0</td>
-            <td>0</td>
+            <td id="clear-1">0</td>
+            <td id="clear-dif">+-0</td>
+            <td id="clear-2">0</td>
         </tr>
     </table>
 </div>
@@ -84,6 +86,10 @@
     <br>
     <div class="footer">
         <p>Owned by Jacob Castor, Website by James Sprague</p>
+    <div class="fb"><img class="ss" src="include/fb_blue.png" /><img class="ss_white" src="include/fb_white.png" /></div>
+    <div class="tw"><img class="ss" src="include/tw_blue.png" /><img class="ss_white" src="include/tw_white.png" /></div>
+    <div class="in"><img class="ss" src="include/in_blue.png" /><img class="ss_white" src="include/in_white.png" /></div>
+    <div class="gp"><img class="ss" src="include/g+_blue.png" /><img class="ss_white" src="include/g+_white.png" /></div>
     </div>
 </body>
 </html>

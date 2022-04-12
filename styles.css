@@ -122,3 +122,43 @@ th {
     margin: 0 auto;
     text-align: center
   }
+
+/* Needed for Hovercraft Plugin */
+
+.ss {
+    position: absolute;
+    width: 64px;
+  }
+  
+  .ss_white {
+    position: absolute;
+    width: 64px;
+  }
+  
+  .fb {
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    margin: 5px;
+  }
+  
+  .tw {
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    margin: 5px;
+  }
+  
+  .in {
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    margin: 5px;
+  }
+  
+  .gp {
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    margin: 5px;
+  }
