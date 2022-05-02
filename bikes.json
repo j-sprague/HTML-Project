@@ -1,0 +1,74 @@
+{"bikes":[
+    {
+        "name": "---",
+        "price": 0,
+        "speed": 0,
+        "weight": 0,
+        "tank": 0,
+        "seat": 0,
+        "clearance": 0
+    },
+    {
+        "name": "2021 Honda ADV150",
+        "price": 4299,
+        "speed": 85,
+        "weight": 294.1,
+        "tank": 2.087,
+        "seat": 31.3,
+        "clearance": 6.5,
+        "image": "images/2021_adv150.jpg",
+        "description": "The 2021 Honda ADV150 is one of the most popular, newest motorcycles from Honda. Owners of this motorcycle claim it's great for beginning motorcyclists.",
+        "sources": [
+            {
+                "name":"powersports.honda.com",
+                "link":"https://powersports.honda.com/street/scooter/adv150?year=2021#:~:text=And%20now%20Honda%20is%20bringing,engine%20and%20a%20steel%20frame"
+            },
+            {
+                "name":"cycleworld.com",
+                "link":"https://www.cycleworld.com/story/buyers-guide/2021-honda-adv150/"
+            }
+        ]
+    },
+    {
+        "name": "2021 Honda CRF450RL",
+        "price": 9999,
+        "speed": 90,
+        "weight": 291,
+        "tank": 2.0,
+        "seat": 37.2,
+        "clearance": 12.6,
+        "image": "images/2021_crf450rl.jpg",
+        "description": "The 2021 Honda CRF450RL is Honda's most popular choice for an off-road dual-sport motorcycle.",
+        "sources": [
+            {
+                "name":"powersports.honda.com",
+                "link":"https://powersports.honda.com/street/adventure/crf450rl?year=2021"
+            },
+            {
+                "name":"cycleworld.com",
+                "link":"https://www.cycleworld.com/story/buyers-guide/2021-honda-crf450rl/"
+            }
+        ]
+    },
+    {
+        "name":"2021 Royal Enfield INT650",
+        "price": 5799,
+        "speed": 129,
+        "weight": 470,
+        "tank": 3.6,
+        "seat": 31.7,
+        "clearance": 6.85,
+        "image": "images/2021_int650.png",
+        "description":"The 2021 Royal Enfield INT650 is a parallel-twin motorc  ycle known for its retro-style and affordable price tag.",
+        "sources": [
+            {
+                "name":"royalenfield.com",
+                "link":"https://www.royalenfield.com/us/en/motorcycles/int650/"
+            },
+            {
+                "name":"cycleworld.com",
+                "link":"https://www.cycleworld.com/story/buyers-guide/2021-royal-enfield-int650/"
+            }
+        ]
+    }
+]}
