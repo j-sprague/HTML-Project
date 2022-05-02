@@ -103,6 +103,10 @@ th {
     max-width:500px;
 }
 
+.img-container {
+    float:right;
+}
+
 .content {
     padding-left:25px;
     padding-right:25px;

@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="images/icon.png">
     <link rel="stylesheet" href="jqueryUI/jquery-ui.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
     <script src="jqueryUI/external/jquery/jquery.js"></script>
     <script src="jqueryUI/jquery-ui.min.js"></script>
-    <script src="accordion.js"></script>
+    <script src="slideshow.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
     <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
     <script src="social.js"></script>
 </head>
@@ -18,47 +20,27 @@
     <img src="images/logo.png" id="logo">
     <ul id="nav">
         <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="gallery.html">Photo Gallery</a></li>
+        <li><a href="faq.html">FAQ</a></li>
         <li><a href="compare.html">Comparison Tool</a></li>
         <li><a href="stats.html">Statistics</a></li>
         <li><a href="contact.html">Contact Us</a></li>
     </ul>
     <div class="content">
+      <div class="img-container">
+        <ul id="slider">
+            <li><img src="images/2021_adv150.jpg" alt="" title="2021 Honda ADV150"></li>
+            <li><img src="images/adv150_1.jpg" alt="" title="2021 Honda ADV150, from visordown"></li>
+            <li><img src="images/adv150_2.jpg" alt="" title="2021 Honda ADV150, from MC Commute"></li>
+            <li><img src="images/2021_crf450rl.jpg" alt="" title="2021 Honda CRF450RL"></li>
+            <li><img src="images/2021_int650.png" alt="" title="2021 Royal Enfield INT650"></li>
+        </ul></div>
+        <p id="id_pager"></p> 
     <h1>Welcome to Compare Motorcycles!</h1>
     <p>Are you in the market for a brand new motorcycle? Are you looking for information on new motorcycles in the market and how they compare to other motorcycles? You've come to the right place! If you're new to the site, we recommend first checking out our <a href="compare.html">comparison tool page</a>! On the comparison tool page, you can compare the stats of any motorcycle listed on our site.</p>
-    <p>We made this website because we're passionate about all things related to motorcycles. If you have any questions we recommend sending us a message via our <a href="contact.html">contact form page</a>. We will try to answer your message as soon as we can.</p>
+    <p>We made this website because we're passionate about all things related to motorcycles. If you have any questions we recommend checking out our <a href="faq.html">frequently asked questions page</a> or sending us a message via our <a href="contact.html">contact form page</a>. We will try to answer your message as soon as we can.</p>
     <br>
-
-    <h1>Frequently Asked Questions</h1>
-    <div id="accordion">
-        <h3>What do each of the statistics mean?</h3>
-        <div>
-          <p>
-            [Placeholder] Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam molestiae laboriosam assumenda odio incidunt possimus autem, voluptatibus, quibusdam dolorum optio est eum rerum, voluptatem illo vero doloribus reprehenderit ipsum explicabo porro unde. Quasi laborum vitae, nemo repellat commodi iusto quis cum sequi est quibusdam labore, dolor ea assumenda aliquid dignissimos.
-          </p>
-        </div>
-        <h3>Question 2</h3>
-        <div>
-          <p>
-            [Placeholder] Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam molestiae laboriosam assumenda odio incidunt possimus autem, voluptatibus, quibusdam dolorum optio est eum rerum, voluptatem illo vero doloribus reprehenderit ipsum explicabo porro unde. Quasi laborum vitae, nemo repellat commodi iusto quis cum sequi est quibusdam labore, dolor ea assumenda aliquid dignissimos.
-          </p>
-        </div>
-        <h3>Question 3</h3>
-        <div>
-          <p>
-            [Placeholder] Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam molestiae laboriosam assumenda odio incidunt possimus autem, voluptatibus, quibusdam dolorum optio est eum rerum, voluptatem illo vero doloribus reprehenderit ipsum explicabo porro unde. Quasi laborum vitae, nemo repellat commodi iusto quis cum sequi est quibusdam labore, dolor ea assumenda aliquid dignissimos.
-          </p>
-        </div>
-        <h3>Question 4</h3>
-        <div>
-          <p>
-            [Placeholder] Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam molestiae laboriosam assumenda odio incidunt possimus autem, voluptatibus, quibusdam dolorum optio est eum rerum, voluptatem illo vero doloribus reprehenderit ipsum explicabo porro unde. Quasi laborum vitae, nemo repellat commodi iusto quis cum sequi est quibusdam labore, dolor ea assumenda aliquid dignissimos.
-          </p>
-          <p>
-            [Placeholder] Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam molestiae laboriosam assumenda odio incidunt possimus autem, voluptatibus, quibusdam dolorum optio est eum rerum, voluptatem illo vero doloribus reprehenderit ipsum explicabo porro unde. Quasi laborum vitae, nemo repellat commodi iusto quis cum sequi est quibusdam labore, dolor ea assumenda aliquid dignissimos.
-          </p>
-        </div>
-      </div>
+    
+    
 </div>
 <div class="footer">
   <p>Owned by Jacob Castor, Website by James Sprague</p>
