@@ -1,4 +1,6 @@
 $(document).ready(function() {
+    var preloadImg = new Image();
+    preloadImg.src = `images/2021_adv150.jpg`
     $("#slider").bxSlider({
         auto: true,
         minSlides: 1,
